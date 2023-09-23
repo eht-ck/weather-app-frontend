@@ -11,7 +11,7 @@ function App() {
     try {
       setLoading(true);
       const response = await axios.get(
-        `https://gorgeous-bandanna-cod.cyclic.cloud/api/weather?location=${location}`
+        `https://weather-backend-7os5.vercel.app/api/weather?location=${location}`
       );
       setWeatherData(response.data);
       setLoading(false);
