@@ -11,7 +11,7 @@ function App() {
     try {
       setLoading(true);
       const response = await axios.get(
-        `http://localhost:8080/api/weather?location=${location}`
+        `https://gorgeous-bandanna-cod.cyclic.cloud/api/weather?location=${location}`
       );
       setWeatherData(response.data);
       setLoading(false);
@@ -29,30 +29,32 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Weather App</h1>
+      <h1> Weather App </h1>{" "}
       <input
         type="text"
         placeholder="Enter location"
         value={location}
         onChange={(e) => setLocation(e.target.value)}
-      />
+      />{" "}
       <br />
       <br />
-      <button onClick={handleSubmit}>Get Weather</button>
-      {loading && <div className="loading">Loading...</div>}
+      <button onClick={handleSubmit}> Get Weather </button>{" "}
+      {loading && <div className="loading"> Loading... </div>}{" "}
       {weatherData && (
         <div className="weather-container">
-          <h2>WEATHER CONDITION</h2>
+          <h2> WEATHER CONDITION </h2>{" "}
           <img src={weatherData.con.icon} alt="weather icon" />
-          <p className="condition">Condition: {weatherData.con.text}</p>
+          <p className="condition"> Condition: {weatherData.con.text} </p>{" "}
           <p className="temperature">
-            Temperature: {weatherData.temperature}°C
+            Temperature: {weatherData.temperature}° C{" "}
+          </p>{" "}
+          <p className="humidity"> Humidity: {weatherData.humidity} % </p>{" "}
+          <p className="humidity">
+            {" "}
+            Wind Speed(KMPH): {weatherData.wind_kph} %{" "}
           </p>
-          <p className="humidity">Humidity: {weatherData.humidity}%</p>
-          <p className="humidity">Wind Speed(KMPH): {weatherData.wind_kph}%</p>
-
         </div>
-      )}
+      )}{" "}
     </div>
   );
 }
