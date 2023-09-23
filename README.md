@@ -1,11 +1,11 @@
-```markdown
+
 # Weather App
 ![image](https://github.com/eht-ck/weather-app-frontend/assets/95522110/b4c58de6-b583-49ba-8332-b5d4b36c11e4)
 
 ## Deployment
 
 The project is deployed on Vercel and can be accessed at [https://weather-app-frontend-umber.vercel.app/](https://weather-app-frontend-umber.vercel.app/).
-
+```markdown
 ## Running Locally
 
 To run the project locally, follow these steps:
