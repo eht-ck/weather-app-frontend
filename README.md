@@ -1,7 +1,19 @@
 ```markdown
 # Weather App
-![image](https://github.com/eht-ck/weather-app-frontend/assets/95522110/0bd7cf5d-ad63-45a4-8efb-6235fe87f680)
+![image](https://github.com/eht-ck/weather-app-frontend/assets/95522110/b4c58de6-b583-49ba-8332-b5d4b36c11e4)
 
+## Deployment
+
+The project is deployed on Vercel and can be accessed at [https://weather-app-frontend-umber.vercel.app/](https://weather-app-frontend-umber.vercel.app/).
+
+## Running Locally
+
+To run the project locally, follow these steps:
+
+1. Install dependencies:
+
+   ```bash
+   npm install
 
 ## Running Locally
 
@@ -21,9 +33,7 @@ To run the project locally, follow these steps:
 
 The app will be available at [http://localhost:3000](http://localhost:3000).
 
-## Deployment
 
-The project is deployed on Vercel and can be accessed at [https://weather-app-frontend-umber.vercel.app/](https://weather-app-frontend-umber.vercel.app/).
 
 ## Repositories
 
