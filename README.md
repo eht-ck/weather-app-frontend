@@ -8,27 +8,20 @@ The project is deployed on Vercel and can be accessed at [https://weather-app-fr
 ```markdown
 ## Running Locally
 
-To run the project locally, follow these steps:
+To setup locally
+#Frontend Setup
+```bash
 
-1. Install dependencies:
-
-   ```bash
-   npm install
-
-## Running Locally
-
-To run the project locally, follow these steps:
-
-1. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-2. Start the development server:
-
-   ```bash
-   npm start
+git clone https://github.com/eht-ck/weather-app-frontend.git
+mkdir weather-app-frontend
+npm install
+npm start
+```
+#BackendSetup
+```bash
+git clone https://github.com/eht-ck/weather-backend.git
+npm install
+npm start build:dev
    ```
 
 The app will be available at [http://localhost:3000](http://localhost:3000).
